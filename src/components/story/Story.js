@@ -25,9 +25,10 @@ const styles = {
     marginBottom: 20
   },
   avatar: {
-    maxWidth: 60,
-    maxHeight: 60,
-    borderRadius: '50%'
+    width: 60,
+    height: 60,
+    borderRadius: '50%',
+    objectFit: 'cover'
   },
   image: {
     minWidth: 200
