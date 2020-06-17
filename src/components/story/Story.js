@@ -81,7 +81,7 @@ class Story extends Component {
             </Typography>
           }
           avatar={
-            <img src={userImage} className={classes.avatar} />
+            <img src={userImage} className={classes.avatar} alt="avatar" />
           }
         />
         <CardMedia

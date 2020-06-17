@@ -13,9 +13,8 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import LinearProgress from '@material-ui/core/LinearProgress';
-import ExitIcon from '@material-ui/icons/ExitToApp';
 // Icons
-import HomeIcon from '@material-ui/icons/Home';
+import ExitIcon from '@material-ui/icons/ExitToApp';
 
 const styles = {
   root: {
@@ -64,7 +63,7 @@ class Navbar extends Component {
               aria-label="menu"
               component={Link} to="/"
             >
-              <img className={classes.logo} src='/logo-white.png' />
+              <img className={classes.logo} src='/logo-white.png' alt="logo" />
             </Button>
             <Typography variant="h6" className={classes.title}>
             </Typography>
